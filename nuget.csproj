@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>.</PackageOutputPath>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;.DS_Store;.git\**;nuget.csproj;.idea\**;global.json" />
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Version>0.0.1-Alpha</Version>
+    <PackageId>TemplateWebApi</PackageId>
+    <PackageType>Template</PackageType>
+    <Title>TemplateWebApi</Title>
+    <Company>gdetra</Company>
+    <Authors>gdetra</Authors>
+    <Copyright>gdetra © 2021</Copyright>
+    <Description>A structured template for api rest project contains a lot of addition (DTOs, DAL, BusinessLogic libraries etc..).</Description>
+    <PackageTags>c#;asp.net;core;template;web</PackageTags>
+    <PackageCopyright>gdetra © 2021</PackageCopyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+</Project>

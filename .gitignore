@@ -1,1 +1,13 @@
 /global.json
+
+.DS_Store
+
+.idea/.idea.TemplateWebApi/.idea/
+
+obj/
+
+*.nupkg
+
+*.pdb
+
+TemplateWebApi.Utilities/bin/Debug/netstandard2.1/
