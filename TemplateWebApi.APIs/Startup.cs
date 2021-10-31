@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoWrapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,6 +44,8 @@ namespace TemplateWebApi.APIs
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TemplateWebApi.APIs v1"));
             }
 
+            app.UseApiResponseAndExceptionWrapper();
+            
             app.UseHttpsRedirection();
 
             app.UseRouting();
