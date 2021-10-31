@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;.DS_Store;.git\**;nuget.csproj;.idea\**;global.json" />
+    <Content Include="**\*" Exclude="**\bin\**\*;**\obj\**\*;.DS_Store;.git\**;nuget.csproj;.idea\**;global.json;.github\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
