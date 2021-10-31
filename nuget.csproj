@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <Version>0.0.2-Alpha</Version>
+    <Version>0.0.22-Alpha</Version>
     <PackageId>TemplateWebApi</PackageId>
     <PackageType>Template</PackageType>
     <Title>TemplateWebApi</Title>
@@ -31,7 +31,7 @@
     <RepositoryUrl>https://github.com/gdetra/TemplateWebApi.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/gdetra/TemplateWebApi.git</PackageProjectUrl>
     <PackageReleaseNotes>
-      Added CI/CD Pipeline with github Action (Publish on NuGet)
+      Fixed CI/CD Pipeline problem with github Action
     </PackageReleaseNotes>
   </PropertyGroup>
 </Project>
