@@ -6,8 +6,12 @@
 
 obj/
 
+bin/
+
 *.nupkg
 
 *.pdb
 
 TemplateWebApi.Utilities/bin/Debug/netstandard2.1/
+
+TemplateWebApi.APIs/bin/Debug/net5.0/

@@ -22,7 +22,7 @@
       {
         "modifiers": [
           {
-            "exclude": [ ".vs/**", ".template_config/**", ".git/**", "./.DS_Store", ".idea/**", "./nuget.csproj", "./global.json", "./template_config/**"]
+            "exclude": [ ".vs/**", ".template_config/**", ".git/**", "./.DS_Store", ".idea/**", "./nuget.csproj", "./global.json", "./template_config/**", ".github/**"]
           }
         ]
       }
