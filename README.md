@@ -16,7 +16,7 @@ dotnet new --install TemplateWebApi
 ##Implementations
 * [x] Installer Interface for a cleaner startup class (Take the idea from [Elfocrash](https://github.com/elfocrash)) 
 * [ ] [WIP] Use [AutoWrapper](https://github.com/proudmonkey/AutoWrapper) library to have more consistent HTTP response
-* [ ] Adding [scrutor](https://github.com/khellang/Scrutor) library to set all solution services class as scoped for DI
+* [ ] Adding [Scrutor](https://github.com/khellang/Scrutor) library to set all solution services class as scoped for DI
 
 * [ ] Implement model validation with [FluentValidation](https://github.com/FluentValidation/FluentValidation) and integrate it with AutoWrapper
 * [ ] Add logging on Filesystem
